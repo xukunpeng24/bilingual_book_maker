@@ -39,7 +39,7 @@ class ChatGPTAPI(Base):
         self,
         key,
         language,
-        api_base=None,
+        api_base="https://api.chatanywhere.tech/v1",
         prompt_template=None,
         prompt_sys_msg=None,
         temperature=1.0,
